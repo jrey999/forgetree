@@ -5,7 +5,7 @@ FILE_COMMENTS: dict[str, str] = {
     ".gitattributes":       "Git attribute settings",
     "README.md":            "Project description and setup instructions",
     "readme.md":            "Project description and setup instructions",
-    "pyproject.toml":       "Build system and dependency config (modern alternative to setup.py)",
+    "pyproject.toml":       "Build system and dependency config",
     "setup.py":             "Legacy package setup script",
     "setup.cfg":            "Package configuration",
     "requirements.txt":     "List of project dependencies",

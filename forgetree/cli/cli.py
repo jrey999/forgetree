@@ -2,7 +2,7 @@
 from forgetree.cli.utils import print_tree
 
 
-if __name__ == "__main__":
+def main():
 
     from argparse import ArgumentParser
     #from forgetree.cli.utils import print_tree
@@ -44,3 +44,6 @@ if __name__ == "__main__":
         use_gitignore=not args.no_gitignore,
     )
 
+if __name__ == "__main__":
+
+    main()
