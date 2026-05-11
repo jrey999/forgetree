@@ -185,7 +185,7 @@ def get_tree(
 
     comment = _get_comment(root.name, is_dir=True)
     comment_str = f"   # {comment}" if comment else ""
-    header = f"{root.name}/{comment_str}"
+    header = f"\n{root.name}/{comment_str}"
 
     body = _render(root, "", patterns, max_depth, current_depth=1)
     return "\n".join([header] + body)

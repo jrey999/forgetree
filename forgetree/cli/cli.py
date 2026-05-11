@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from forgetree.cli.utils import print_tree
+from forgetree.cli.forgetree import print_tree
 
 
 def main():
