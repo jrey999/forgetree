@@ -1,5 +1,5 @@
 # FORGETREE
-
+```
 foregetree/
 ├── forgetree/
 │   ├── cli/
@@ -11,3 +11,4 @@ foregetree/
 ├── .gitignore   # Files to ignore in Git (e.g., __pycache__, .venv)
 ├── pyproject.toml   # Build system and dependency config
 └── README.md   # Project description and setup instructions
+```
